@@ -16,8 +16,8 @@ int main(){
     fgets(klimat,sizeof(klimat),stdin);
     
     int i=mystrlen(klimat);
-    printf("length |||||||||%d\n",i);
-    printf("length:%d",strlen(klimat));
+    printf("length sans la fonction :%d\n",i);
+    printf("length avec la fonction :%d",strlen(klimat));
 
 
 
